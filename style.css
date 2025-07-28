@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+
+.body-index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: aliceblue;
+}
+.button-container{
+    display: flex;
+    gap: 20px;
+}
+
+.image-button-1{
+    width: 200px;
+    cursor: pointer;  
+    border-radius: 12px;
+    transition: transform 0.2s;
+
+}
+ /* makes button move when you hover over it */
+.image-button-1:hover{
+    transform: scale(1.05);
+}
+
+.button-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button-title{
+    margin-top: 10px;
+    color:black;
+    font-family: "Limelight", sans-serif;
+    font-size: 20px;
+    
+}
+.body-about{
+    background-color:antiquewhite
+    margin: 0;
+    height: 100vh;
+}
+.header-about{
+    display: block;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    align-items: center;
+    text-align: center;
+}
+
+.paragraph-one-about{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 50px;
+    font: 25px;
+}
+.images-notes{
+    margin-left: 0px;
+
+}
